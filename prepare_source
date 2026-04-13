@@ -1,0 +1,4 @@
+pkg=dpkg
+version_orig="1.23.7"
+version="$version_orig-0"
+git_src --branch $version_orig "https://salsa.debian.org/dpkg-team/dpkg.git"
